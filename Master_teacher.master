@@ -1,0 +1,54 @@
+﻿<%@ Master Language="C#" %>
+
+<!DOCTYPE html>
+
+<script runat="server">
+
+</script>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 950px;
+            border-collapse: collapse;
+            background-color: #FFFFFF;
+        }
+        .auto-style2 {
+            width: 67px;
+        }
+    </style>
+    	<link rel="stylesheet" href="teacher_menu_files/css3menu1/style.css" type="text/css" /><style type="text/css">._css3m{display:none}</style>
+
+</head>
+<body style="background-color:#006699;margin-top:0px;margin-left:0px;margin-right:0px">
+    <form id="form1" runat="server">
+    <div id="header" style="width:100%;height:120px;background-color:#d9d2d2">
+
+    </div>
+    
+        <table align="center" class="auto-style1" dir="rtl">
+            <tr>
+                <td class="auto-style2">
+                    <ul id="css3menu1" class="topmenu">
+	<li class="switch"><label onclick="" for="css3menu-switcher"></label></li>
+	<li class="topfirst"><a href="#" style="width:144px;">اضافة ملف </a></li>
+	<li class="topmenu"><a href="#" style="width:144px;">ملفاتي</a></li>
+	<li class="topmenu"><a href="#" style="width:144px;">بحث</a></li>
+	<li class="topmenu"><a href="#" style="width:144px;">اضافة مقرر</a></li>
+	<li class="toplast"><a href="#" style="width:144px;">خروج</a></li>
+</ul>
+                &nbsp;</td>
+                <td>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+        </table>
+    </form>
+    
+</body>
+</html>
